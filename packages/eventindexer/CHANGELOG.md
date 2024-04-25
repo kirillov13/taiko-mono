@@ -1,5 +1,37 @@
 # Changelog
 
+## [1.0.0](https://github.com/taikoxyz/taiko-mono/compare/eventindexer-v0.13.0...eventindexer-v1.0.0) (2024-04-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* **bridge-ui-v2:** bridge UI version 2.1  ([#15775](https://github.com/taikoxyz/taiko-mono/issues/15775))
+
+### Features
+
+* **bridge-ui-v2:** bridge UI version 2.1  ([#15775](https://github.com/taikoxyz/taiko-mono/issues/15775)) ([81359fd](https://github.com/taikoxyz/taiko-mono/commit/81359fd9201bb8a39095e6bdbcb3ac977a7bb5ef))
+* **eventindexer:** add indexer in MySQL ([#15930](https://github.com/taikoxyz/taiko-mono/issues/15930)) ([b00d0b1](https://github.com/taikoxyz/taiko-mono/commit/b00d0b1394862fd43561b59b29e8779b58ee506d))
+* **eventindexer:** bindings update ([#16714](https://github.com/taikoxyz/taiko-mono/issues/16714)) ([a9df68c](https://github.com/taikoxyz/taiko-mono/commit/a9df68c044afdaeda7b39a7d568b966377f49592))
+* **eventindexer:** fix down mig + regen bindings ([#16563](https://github.com/taikoxyz/taiko-mono/issues/16563)) ([da5a039](https://github.com/taikoxyz/taiko-mono/commit/da5a03900409ded0488058068092d6d2ec9a0b26))
+* **eventindexer:** flag typo + delete unused task ([#16703](https://github.com/taikoxyz/taiko-mono/issues/16703)) ([03d610d](https://github.com/taikoxyz/taiko-mono/commit/03d610d8a94e4f1ef52b4c3e5656ed9081b8585f))
+* **eventindexer:** internal devnet changes ([#16466](https://github.com/taikoxyz/taiko-mono/issues/16466)) ([9a6c4e8](https://github.com/taikoxyz/taiko-mono/commit/9a6c4e88df66371350ce24cf27b497927b41a5bd))
+* **eventindexer:** introduce disperser ([#16694](https://github.com/taikoxyz/taiko-mono/issues/16694)) ([977b5cb](https://github.com/taikoxyz/taiko-mono/commit/977b5cbc2eaff986c0a7a7c94e323a91ea1e3ecd))
+* **eventindexer:** update eventindexer bindings + necessary changes ([#16235](https://github.com/taikoxyz/taiko-mono/issues/16235)) ([4224546](https://github.com/taikoxyz/taiko-mono/commit/422454601f391a8a7456780216914a301006a60a))
+* **relayer:** bridge improvement ([#16752](https://github.com/taikoxyz/taiko-mono/issues/16752)) ([ac93ace](https://github.com/taikoxyz/taiko-mono/commit/ac93acea1ef28e059a5d18630ca8a8b713f4a01a))
+* **relayer:** regen bindings, make changes for stateVars, add isMessageReceived ([#16664](https://github.com/taikoxyz/taiko-mono/issues/16664)) ([66a35e2](https://github.com/taikoxyz/taiko-mono/commit/66a35e29aa3c688ac57ddd40a24b59aef45beff6))
+* **relayer:** remove subscriptions, make reorg detecting easier, filter on event loop ([#16417](https://github.com/taikoxyz/taiko-mono/issues/16417)) ([e985d59](https://github.com/taikoxyz/taiko-mono/commit/e985d593c2b2b59490150c2d5a76e3ccb5fc0fe2))
+
+
+### Bug Fixes
+
+* **blobstorage, eventindexer, relayer:** remove username and password ([#16700](https://github.com/taikoxyz/taiko-mono/issues/16700)) ([35adb3d](https://github.com/taikoxyz/taiko-mono/commit/35adb3d7f5a79200573c1f6822586ea221a29dfa))
+* **eventindexer:** disperser should exit ([#16836](https://github.com/taikoxyz/taiko-mono/issues/16836)) ([5e914d5](https://github.com/taikoxyz/taiko-mono/commit/5e914d58a90d210c9816b92206bbcb897588daa6))
+
+
+### Performance Improvements
+
+* **main:** use errors.New to replace fmt.Errorf with no parameters ([#16777](https://github.com/taikoxyz/taiko-mono/issues/16777)) ([bb0c1ae](https://github.com/taikoxyz/taiko-mono/commit/bb0c1ae3077eeb8558f9bf9b01c5f5a71ec337ba))
+
 ## [0.13.0](https://github.com/taikoxyz/taiko-mono/compare/eventindexer-v0.12.0...eventindexer-v0.13.0) (2023-10-18)
 
 
